@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to right, #f2faf2, #cecebe);
+    font-family: 'Viaoda Libre' ;
+    
+    
+}
+
+
+
+h1 {
+    font-family: 'Viaoda Libre' ;
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    border: 3px solid green
+
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #a3d617;
+    
+}
+
+footer {
+
+
