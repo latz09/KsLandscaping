@@ -1,9 +1,22 @@
 body {
-    background-image: linear-gradient(to right, #f2faf2, #cecebe);
+    background-image: linear-gradient(to right, #eaeef7, #f9fbfc);
     font-family: 'Viaoda Libre' ;
-    
+  
     
 }
+
+header {
+    width: 100%;
+    
+}
+.Carousel {
+    border: solid green;
+     
+}
+li {
+    font-size: 1.5rem;
+}
+
 
 
 
@@ -21,7 +34,7 @@ h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-color: #a3d617;
+    background-color: #a6c9da;
     
 }
 
