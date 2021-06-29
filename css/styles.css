@@ -6,11 +6,10 @@ body {
 }
 
 header {
-    width: 100%;
     
 }
-.Carousel {
-    border: solid green;
+#kslCarousel {
+    border: solid rgb(80, 113, 204);
      
 }
 li {
@@ -38,6 +37,9 @@ h2 {
     
 }
 
-footer {
-
+.site-footer {
+    background-color: #a6c9da;;   
+    padding: 25px 0;
+    f
+}
 

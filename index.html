@@ -22,15 +22,13 @@
         
         <div class="containter">
             <div class="row">
-                <div class="col-sm-4 align-self-center">
+                <div class="col-md-4 align-self-center">
                    <img src="img/log_just_tree.png"/>
                 </div>
-                <div class="col-sm-4 align-self-center">
+                <div class="col-md-8 align-self-center">
                     <h1>KSLandscaping</h1>
                 </div>
-                <div class="col-sm-4 align-self-end">
-                    <button class="btn btn-success">Get a quote</button>
-                </div>
+
             </div>
         </div>
                    
@@ -50,8 +48,11 @@
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card"></i>  Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info"></i>  About</a></li>
                     </ul>
+                </div>
             </div>
-        </div>
+            <div class="col-md-2 ">
+                <button class="btn btn-success">Get a quote</button>
+            </div>
  
 
             
@@ -64,14 +65,14 @@
 
         <div class="container">
             <div class="row row-content">
-                <div class="col-md-8 mx-auto">
+                <div class="col-md-7 mx-auto">
                     <div id="kslCarousel" class="carousel slide" data-ride="carousel">
                         <ol class= "carousel-indicators">
                             <li data-target="kslCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="kslCarousel" data-slide-to="1"></li>
                             <li data-target="kslCarousel" data-slide-to="2"></li>
                         </ol>
-                        <div class="carousel-inner hover align-self-center">
+                        <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="img/ridermower.jpg" alt="Lawn Mowing" />
                             </div>
@@ -82,12 +83,21 @@
                                 <img class="d-block w-100" src="img/shoveling.jpg" alt="Snow Shoveling"/>
                             </div>
                         </div>
+                        <a class="carousel-control-prev" href="#kslCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#kslCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                                                    
                     </div>
+
                 </div>
             </div>
+
             <br>
             
-            <h2 class="bg-secondary text-white">Our Services</h2>
+            <h2 class="bg-info text-white">Our Services</h2>
             <br>
             <br>
        
@@ -129,10 +139,8 @@
 
             </div>
         </div>
-    <footer class="site-footer">
-
-
-    </footer>  
+        
+ 
     
                 
            
@@ -141,7 +149,37 @@
 
 
    
-    <footer>
+
+    
+        
+            
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h4>Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link"><i class="fa fa-phone fa-lg text-success"></i> Tel: 1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link"><i class="fa fa-envelope fa-lg text-success"></i> Email: lawncare@ksl.co</a>
+                </div>
+
+            </div>
+        </div>
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
