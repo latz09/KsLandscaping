@@ -26,7 +26,8 @@ h1 {
 h2 {
     font-size: 3rem;
     text-align: center;
-    border: 3px solid green
+    border: 3px solid rgb(63, 181, 211)
+    
 
 }
 
@@ -40,6 +41,6 @@ h2 {
 .site-footer {
     background-color: #a6c9da;;   
     padding: 25px 0;
-    f
+    position: 
 }
 
