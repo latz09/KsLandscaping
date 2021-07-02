@@ -25,6 +25,7 @@
                 </div>
                 <div class="col-md-8 align-self-center">
                     <h1>KSLandscaping</h1>
+                    <h4>For all your landscaping needs</h4>
                 </div>
 
             </div>
@@ -54,12 +55,133 @@
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info"></i>  About</a></li>
                     </ul>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <a class="btn btn-success btn-lg" role="button" data-toggle="modal" data-target="#quoteModal">Get a quote</a>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-md-2 ">
-                <button class="btn btn-success">Get a quote</button>
-            </div>   
-        </nav>        
+          
+        </nav>
+        <div id="quoteModal" class="modal fade" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content bg-light ">
+                <div class="modal-header bg-success">
+                    <h3 class="modal-title">Request a quote</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                              </div>
+                              <div class="form-group col-md-4">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="phoneNumber" class="form-control" id="PhoneNumber" placeholder="PhoneNumber">
+                              </div>
+                               <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                              </div>  
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>Tell us about your landscaping needs</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1"></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col align-self-center">
+                                    <h3>Services You Are Interested In</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                            One Time Grass Cut
+                                            </label>
+                                        </div>  
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                            <label class="form-check-label" for="defaultCheck2">
+                                            Bi-Weekly Grass Cutting
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                            <label class="form-check-label" for="defaultCheck3">
+                                            Weekly Grass Cut
+                                            </label>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                            <label class="form-check-label" for="defaultCheck4">
+                                            Fall Cleanup
+                                            </label>
+                                        </div>  
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                                            <label class="form-check-label" for="defaultCheck5">
+                                            Spring Clean Up
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                                            <label class="form-check-label" for="defaultCheck6">
+                                            Weed Control
+                                            </label>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+                                            <label class="form-check-label" for="defaultCheck7">
+                                            One Time Snow Removal
+                                            </label>
+                                        </div>  
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+                                            <label class="form-check-label" for="defaultCheck8">
+                                            Automated Snow Removal
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+                                            <label class="form-check-label" for="defaultCheck9">
+                                            Add-on Walkway Clearing
+                                            </label>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-success">Get Quote</button>
+                          </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>        
         <br>
         <br>
 
@@ -115,7 +237,7 @@
                                 <h5 class="card-title">A one-time grass cut can be ordered through our online site or mobile app.  This is an on-demand service that is paid per visit</h5>
                             </div>
                             <div class="card-body">
-                                <button class="btn btn-success">Get a quote</button>
+                                <a class="btn btn-success" role="button" data-toggle="modal" data-target="quoteModal">Get a quote</a>
                             </div>
                         </div>
                     </div>
@@ -166,7 +288,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card bg-light mb-3" style="max-width: 18rem;">
-                            <div class="card-header text-center">Spring Cleanup</div>
+                            <div class="card-header text-center align-items-center">Spring Cleanup</div>
                             <div class="card-body">
                                 <h5 class="card-title">Our professionals will get your yard ready for the summer by clearing away leaves, branches and clutter </h5>
                             </div>
@@ -243,7 +365,7 @@
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#grassCutting">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
                         <li><a href="#">About</a></li>
                     </ul>
 
